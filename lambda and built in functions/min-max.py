@@ -24,6 +24,21 @@ urunler = [
 ]
 
 sonuc = min(urunler, key = lambda urun: urun["price"])
-sonuc = max(urunler, key = lambda urun: urun["price"])["title"]
+sonuc = max(urunler, key = lambda urun: urun["price"])
+print(sonuc["title"])
 
-print(sonuc)["title"] #ya da değişkene yaz max(urunler, key = lambda urun: urun["price"])["title"]
+
+"""
+| Topic            | Description                             |
+| ---------------- | --------------------------------------- |
+| Purpose          | Find the smallest or largest element    |
+| Basic Usage      | `min(iterable)`, `max(iterable)`        |
+| Numbers          | Compared by numeric value               |
+| Strings          | Compared alphabetically (Unicode order) |
+| Default Return   | Returns the original element            |
+| `key` Parameter  | Defines the comparison rule             |
+| `key` Example    | `key=lambda x: len(x)`                  |
+| Dictionary Lists | Often used with `key`                   |
+| Common Case      | Finding min/max by price, length, score |
+| Important Note   | `print()` returns `None`                |
+"""

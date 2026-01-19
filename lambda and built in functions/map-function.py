@@ -31,3 +31,14 @@ sonuc = list(
 sonuc = list(
     map(lambda kisi: kisi["ad"], kullanicilar)
                  )
+
+"""
+| Feature     | `map()`                                 | `for` loop                  |
+| ----------- | --------------------------------------- | --------------------------- |
+| Purpose     | Apply the same function to all elements | Full control over iteration |
+| Logic Type  | Functional                              | Imperative                  |
+| Code Length | Short                                   | Longer                      |
+| Flexibility | Limited                                 | High                        |
+| Use Case    | Simple transformations                  | Complex logic               |
+| Result      | Same as `for` loop                      | Same as `map()`             |
+"""

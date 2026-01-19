@@ -39,5 +39,15 @@ sonuc = sorted(kurslar, key = lambda kurs: kurs["count"])
 sonuc = sorted(kurslar, key = lambda kurs: kurs["count"], reverse=True)
 sonuc = list(map(lambda kurs: kurs["title"], sorted(kurslar, key = lambda kurs: kurs["count"], reverse=True)))
 
-
 print(sonuc)
+
+"""
+| Item           | Description                      |
+| -------------- | -------------------------------- |
+| Purpose        | Sorts elements                   |
+| Syntax         | `sorted(iterable, key, reverse)` |
+| Default        | Ascending order                  |
+| `reverse=True` | Descending                       |
+| `key`          | Custom sort rule                 |
+| Original Data  | Not changed                      |
+"""

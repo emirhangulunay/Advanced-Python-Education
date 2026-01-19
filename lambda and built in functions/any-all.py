@@ -22,3 +22,14 @@ sonuc = all([user[0] == "a" for user in users])
 sonuc = any([user[0] == "a" for user in users])
 
 print(sonuc)
+
+"""
+| Purpose                         | Use                |
+| ------------------------------- | ------------------ |
+| Are all conditions true?        | `all()`            |
+| Is at least one condition true? | `any()`            |
+| AND logic                       | `all()`            |
+| OR logic                        | `any()`            |
+| Check a list with a condition   | List Comprehension |
+
+"""

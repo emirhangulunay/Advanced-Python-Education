@@ -24,6 +24,18 @@ filteredUsers = list(filter(lambda u: len(u["posts"]) > 2, users))
 sonuc = list(map(lambda u: u["username"], filteredUsers))
 
 sonuc = [user["username"].upper() for user in users if len(user["posts"]) > 0]
-
-
 print(sonuc)
+
+"""
+| Topic           | Description                                 |
+| --------------- | ------------------------------------------- |
+| Purpose         | Selects elements that satisfy a condition   |
+| Syntax          | `filter(function, iterable)`                |
+| Function Output | Must return `True` or `False`               |
+| `True`          | Element is kept                             |
+| `False`         | Element is removed                          |
+| Input           | Any iterable (list, tuple, etc.)            |
+| Output          | `filter` object (usually converted to list) |
+| Common Use      | Filtering data based on conditions          |
+| Example         | `list(filter(lambda x: x > 0, numbers))`    |
+"""
