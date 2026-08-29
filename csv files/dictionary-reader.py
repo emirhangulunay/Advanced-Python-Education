@@ -1,6 +1,6 @@
 import csv
 
-with open("urunler.csv") as file:
+with open("products.csv") as file:
     csv_reader = csv.DictReader(file, delimiter="|")
     csv_reader = csv.DictReader(file)
 
