@@ -1,0 +1,17 @@
+
+  {
+    "2": {
+    "title": "Macbook Pro",
+    "price": 80000
+  },
+  
+    "3" : {
+    "title": "Macbook Air",
+    "price": 70000
+  },
+  
+    "1": {
+    "title": "Iphone 17 Pro Max",
+    "price": 120000
+  }
+  }
