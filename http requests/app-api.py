@@ -1,7 +1,7 @@
 import requests
 
 url = "http://api.openweathermap.org/geo/1.0/current.json"
-key = "25825010c66f3fab0200dd1d52d2230d"
+key = "*"
 
 konum = input("konum: ")
 
